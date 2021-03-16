@@ -389,17 +389,6 @@
   position: relative;
 }
 
-#wk-videos .wk-video {
-  width: 125px;
-  height: 125px;
-  display: inline-flex;
-  margin: 5px;
-  border-radius: 3px;
-  padding: 11px 0;
-  background-color: #e4e4e2;
-  position: relative;
-}
-
 #wk-images .wk-image .wk-delete-img {
   position: absolute;
   width: 25px;

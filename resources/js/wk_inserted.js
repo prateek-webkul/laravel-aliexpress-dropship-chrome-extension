@@ -1117,12 +1117,12 @@ window.onload = function() {
       var videosHtml = "";
 
       videosHtml +=
-        '<div class="input-block"><div class="input-label"><label>Video</label></div><div class="block-input"><div id="wk-videos">';
+        '<div class="input-block"><div class="input-label"><label>Video</label></div><div class="block-input">';
       videosHtml +=
-          '<div class="wk-video"><video> <source src="' +
+          '<video width="110" height="110" controls="controls"><source src="' +
           video +
-          '"></source></video></div>';
-      videosHtml += "</div></div></div>";
+          '"></video></div>';
+      videosHtml += "</div>";
 
       $(document)
         .find("#product-edit-modal .modal-body")

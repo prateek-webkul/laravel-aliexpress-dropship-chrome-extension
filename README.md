@@ -13,12 +13,13 @@ It packs in lots of demanding features that allows your business to scale in no 
 - [feature] Shop URL verification while registering your Bagisto store URL.
 - [feature] Add Product Price Synchronization from AliExpress using cron.
 - [feature] Description of the product also gets imported same as AliExpress.
-- [feature] The product information like base name, price, quantity, product reviews, meta title, meta keywords, meta description, SKU, description(simple tags, HTML tags, and multiple images), and configurable attributes get imported along with the product.
+- [feature] The product information like base name, price, quantity, product reviews, meta title, meta keywords, meta description, SKU, videos, description(simple tags, HTML tags, and multiple images), and configurable attributes get imported along with the product.
 - [feature] View all AliExpress Orders in a separate section.
 
 ### 2. Requirements:
 
-- **Bagisto**: v0.1.5 or higher.
+- **Bagisto**: v1.3.1
+- **Laravel Aliexpress drosphip**: Master
 
 ### 3. Installation:
 
